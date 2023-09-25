@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="447.0" prefWidth="493.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.supershopmanagement.ProductAdd">
+   <children>
+      <Label fx:id="firstNameLbl" layoutX="58.0" layoutY="56.0" prefHeight="29.0" prefWidth="218.0" text="NAME" />
+      <Label fx:id="lastNameLbl" layoutX="56.0" layoutY="121.0" prefHeight="29.0" prefWidth="218.0" text="ID" />
+      <Label fx:id="counterLbl" layoutX="54.0" layoutY="181.0" prefHeight="29.0" prefWidth="218.0" text="Category: " />
+      <Label fx:id="emailLbl" layoutX="57.0" layoutY="304.0" prefHeight="29.0" prefWidth="218.0" text="Amount" />
+      <TextField fx:id="amountFill" layoutX="57.0" layoutY="327.0" prefHeight="25.0" prefWidth="265.0" />
+      <TextField fx:id="idFill" layoutX="55.0" layoutY="150.0" prefHeight="25.0" prefWidth="265.0" />
+      <TextField fx:id="nameFill" layoutX="55.0" layoutY="85.0" prefHeight="25.0" prefWidth="265.0" />
+      <TextField fx:id="catagoryFill" layoutX="54.0" layoutY="212.0" prefHeight="25.0" prefWidth="265.0" />
+      <Button fx:id="addBtn" layoutX="61.0" layoutY="360.0" mnemonicParsing="false" onAction="#onAddBtnClick" prefHeight="29.0" prefWidth="256.0" text="ADD" />
+      <Label fx:id="headingLbl" layoutX="171.0" layoutY="24.0" prefHeight="36.0" prefWidth="274.0" text="Add Product">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="out" layoutX="398.0" layoutY="224.0" prefHeight="17.0" prefWidth="142.0" />
+      <Label fx:id="counterLbl1" layoutX="54.0" layoutY="243.0" prefHeight="29.0" prefWidth="218.0" text="Price" />
+      <TextField fx:id="priceFill" layoutX="55.0" layoutY="269.0" prefHeight="25.0" prefWidth="265.0" />
+      <Label fx:id="msgLbl" layoutX="53.0" layoutY="394.0" prefHeight="29.0" prefWidth="293.0" textFill="#00a11e" />
+   </children>
+</AnchorPane>

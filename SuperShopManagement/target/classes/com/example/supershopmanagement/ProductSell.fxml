@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="533.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.supershopmanagement.ProductSell">
+   <children>
+      <AnchorPane layoutY="10.0" prefHeight="47.0" prefWidth="536.0" style="-fx-background-color: #0cf7f0;">
+         <children>
+            <Label layoutX="221.0" prefHeight="47.0" prefWidth="172.0" text="Admin">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="59.0" layoutY="184.0" prefHeight="17.0" prefWidth="96.0" text="Conact                :" />
+      <TextField fx:id="nameFill" layoutX="174.0" layoutY="146.0" prefHeight="25.0" prefWidth="329.0" />
+      <Label layoutX="58.0" layoutY="150.0" prefHeight="17.0" prefWidth="96.0" text="Customer Name  :" />
+      <TextField fx:id="contactFill" layoutX="174.0" layoutY="180.0" prefHeight="25.0" prefWidth="329.0" />
+      <Label layoutX="59.0" layoutY="222.0" prefHeight="17.0" prefWidth="96.0" text="Product ID          :" />
+      <TextField fx:id="idFill" layoutX="174.0" layoutY="218.0" prefHeight="25.0" prefWidth="113.0" />
+      <Label layoutX="388.0" layoutY="222.0" text="Counter   :" />
+      <TextField fx:id="counterFill" layoutX="462.0" layoutY="218.0" prefHeight="25.0" prefWidth="42.0" />
+      <Label layoutX="66.0" layoutY="258.0" prefHeight="17.0" prefWidth="113.0" text="Total Pay          :" />
+      <TextField fx:id="payFill" layoutX="176.0" layoutY="252.0" />
+      <Button fx:id="updateBtn" layoutX="162.0" layoutY="301.0" mnemonicParsing="false" onAction="#onConfirmBtnClick" prefHeight="37.0" prefWidth="101.0" style="-fx-background-color: #03964d;" text="Confirm" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="updateBtn1" layoutX="312.0" layoutY="301.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="101.0" style="-fx-background-color: red;" text="Clear" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <HBox layoutY="57.0" prefHeight="37.0" prefWidth="536.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#onProductClick" prefHeight="37.0" prefWidth="149.0" style="-fx-background-color: #0c054d;" text="Products" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="17.0" />
+               </font>
+            </Button>
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#onCustomerClick" prefHeight="37.0" prefWidth="149.0" style="-fx-background-color: #0c054d;" text="Customer" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="17.0" />
+               </font>
+            </Button>
+            <Button layoutX="308.0" layoutY="10.0" mnemonicParsing="false" onAction="#onProfileClick" prefHeight="37.0" prefWidth="149.0" style="-fx-background-color: #0c054d;" text="Profile" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="17.0" />
+               </font>
+            </Button>
+            <Button layoutX="412.0" layoutY="10.0" mnemonicParsing="false" onAction="#onLogOutClick" prefHeight="37.0" prefWidth="149.0" style="-fx-background-color: #0c054d;" text="Log Out" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="17.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <Label fx:id="msgLbl" layoutX="106.0" layoutY="348.0" prefHeight="17.0" prefWidth="300.0" textFill="#0d7520" />
+   </children>
+</AnchorPane>

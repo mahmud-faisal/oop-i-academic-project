@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="426.0" prefWidth="407.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.supershopmanagement.Admin">
+   <children>
+      <AnchorPane prefHeight="59.0" prefWidth="407.0" style="-fx-background-color: #0cf7f0;">
+         <children>
+            <Label layoutX="96.0" layoutY="6.0" prefHeight="49.0" prefWidth="209.0" text="Admin Details">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label fx:id="nameLbl" layoutX="43.0" layoutY="76.0" prefHeight="23.0" prefWidth="58.0" text="Name     :" />
+      <Label fx:id="name" layoutX="134.0" layoutY="76.0" prefHeight="23.0" prefWidth="220.0" />
+      <Label fx:id="idLbl" layoutX="43.0" layoutY="112.0" prefHeight="23.0" prefWidth="58.0" text="ID          :" />
+      <Label fx:id="id" layoutX="134.0" layoutY="112.0" prefHeight="23.0" prefWidth="220.0" />
+      <Label fx:id="contactLbl" layoutX="33.0" layoutY="149.0" prefHeight="23.0" prefWidth="70.0" text="Contact    :" />
+      <Label fx:id="contact" layoutX="133.0" layoutY="150.0" prefHeight="23.0" prefWidth="220.0" />
+      <Label fx:id="designationLbl" layoutX="21.0" layoutY="182.0" prefHeight="23.0" prefWidth="77.0" text="Designation :" />
+      <Label fx:id="designation" layoutX="134.0" layoutY="180.0" prefHeight="23.0" prefWidth="220.0" />
+      <Label fx:id="email" layoutX="135.0" layoutY="218.0" prefHeight="23.0" prefWidth="220.0" />
+      <Label fx:id="emailLbl" layoutX="41.0" layoutY="218.0" prefHeight="23.0" prefWidth="58.0" text="Email     :" />
+      <Label fx:id="emergencyLbl" layoutX="21.0" layoutY="273.0" prefHeight="23.0" prefWidth="77.0" text="Emergency  :" />
+      <Label fx:id="emergency" layoutX="125.0" layoutY="273.0" prefHeight="23.0" prefWidth="220.0" />
+      <Label fx:id="counter" layoutX="135.0" layoutY="248.0" prefHeight="23.0" prefWidth="220.0" />
+      <Label fx:id="counterLbl" layoutX="26.0" layoutY="248.0" prefHeight="23.0" prefWidth="77.0" text="Counter     :" />
+      <Label fx:id="dob" layoutX="134.0" layoutY="303.0" prefHeight="23.0" prefWidth="220.0" />
+      <Label fx:id="dobLbl" layoutX="40.0" layoutY="303.0" prefHeight="23.0" prefWidth="58.0" text="DOB      :" />
+      <Button fx:id="updateBtn" layoutX="152.0" layoutY="361.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="101.0" style="-fx-background-color: #03964d;" text="Update" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

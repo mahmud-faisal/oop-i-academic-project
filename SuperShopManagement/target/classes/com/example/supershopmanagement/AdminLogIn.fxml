@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="328.0" prefWidth="411.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.supershopmanagement.AdminLogIn">
+   <children>
+      <AnchorPane layoutY="-2.0" prefHeight="70.0" prefWidth="411.0" style="-fx-background-color: #4bd1cd;">
+         <children>
+            <Label layoutX="147.0" layoutY="13.0" text="Admin">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="96.0" layoutY="93.0" text="User ID">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="adminId" layoutX="96.0" layoutY="116.0" prefHeight="25.0" prefWidth="223.0" />
+      <Label layoutX="96.0" layoutY="147.0" prefHeight="26.0" prefWidth="79.0" text="Password">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="adminSignInBtn" layoutX="101.0" layoutY="212.0" mnemonicParsing="false" onAction="#sendToBackEnd" prefHeight="25.0" prefWidth="215.0" text="Sign In" />
+      <PasswordField fx:id="adminPassword" layoutX="96.0" layoutY="175.0" prefHeight="25.0" prefWidth="223.0" />
+      <Label fx:id="caution" layoutX="100.0" layoutY="244.0" prefHeight="26.0" prefWidth="215.0" textFill="RED">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

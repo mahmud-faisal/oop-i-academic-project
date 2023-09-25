@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="261.0" prefWidth="632.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.supershopmanagement.ManagerHome">
+   <children>
+      <AnchorPane prefHeight="47.0" prefWidth="536.0" style="-fx-background-color: #0cf7f0;">
+         <children>
+            <Label layoutX="224.0" prefHeight="47.0" prefWidth="172.0" text="Manager">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button layoutX="333.0" layoutY="140.0" mnemonicParsing="false" onAction="#onProductClick" prefHeight="37.0" prefWidth="149.0" style="-fx-background-color: #0c054d;" text="Products" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="95.0" layoutY="140.0" mnemonicParsing="false" onAction="#onCustomerClick" prefHeight="37.0" prefWidth="149.0" style="-fx-background-color: #0c054d;" text="Customer" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="20.0" layoutY="78.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="149.0" style="-fx-background-color: #0c054d;" text="Admins" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="217.0" layoutY="78.0" mnemonicParsing="false" onAction="#onProfileClick" prefHeight="37.0" prefWidth="149.0" style="-fx-background-color: #0c054d;" text="Profile" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="401.0" layoutY="78.0" mnemonicParsing="false" onAction="#onLogOutClick" prefHeight="37.0" prefWidth="149.0" style="-fx-background-color: #0c054d;" text="Log Out" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
